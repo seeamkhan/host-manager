@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+    <title>Hosts Manager</title>
+</head>
+<body>
+    <h1>Website Blocking Manager</h1>
+    <form method="POST" action="/">
+        <button name="action" value="block">Block Websites</button>
+        <button name="action" value="unblock">Unblock Websites</button>
+    </form>
+    <form method="POST" action="/control">
+    <button name="action" value="stop">Stop Service</button>
+    <button name="action" value="restart">Restart Service</button>
+</form>
+
+    <p>{{ message }}</p>
+</body>
+</html>
+
